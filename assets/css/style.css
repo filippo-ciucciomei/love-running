@@ -48,7 +48,7 @@ h1 {
 
 header {
     background-color: #ffffff;
-    padding: 1rem;
+    padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -61,7 +61,19 @@ header a {
     
 }
 
+#menu {
+    list-style-type: none;
+    font-size: 110%;   
+    letter-spacing: 4px;
+}
 
+#menu li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
 
 main {
     background-color: lightblue;
