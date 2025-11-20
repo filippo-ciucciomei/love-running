@@ -8,6 +8,14 @@ and width it includes padding and border */
     box-sizing: border-box;
 }
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* generic project style */
+    color: #3a3a3a
+
+}
 
 header {
     background-color: lightcoral ;
@@ -15,6 +23,9 @@ header {
 
 main {
     background-color: lightblue;
+    /* Make the main element take all the space
+    when the content is smaller than the viewport */
+    flex: 1 0 auto;
 }
 
 footer {
