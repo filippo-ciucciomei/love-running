@@ -1,7 +1,5 @@
 /* Google Font Import */
-<style>
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200..700&display=swap');
-</style>;
 
 /* Oswald CSS class for a variable style 
 <weight>: Use a value from 200 to 700
@@ -30,6 +28,7 @@ and width it includes padding and border */
     box-sizing: border-box;
 }
 
+/* General Styles */
 body {
     min-height: 100vh;
     display: flex;
@@ -37,19 +36,18 @@ body {
     /* generic project style */
     color: #3a3a3a;
     font-family: "Lato", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-
-}
-
-header {
-    background-color: lightcoral ;
 }
 
 h1 {
   font-family: "Oswald", sans-serif;
   
 }
+
+header {
+    background-color: lightcoral ;
+}
+
+
 
 main {
     background-color: lightblue;
