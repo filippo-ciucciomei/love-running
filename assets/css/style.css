@@ -1,3 +1,25 @@
+/* Google Font Import */
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200..700&display=swap');
+</style>;
+
+/* Oswald CSS class for a variable style 
+<weight>: Use a value from 200 to 700
+  .oswald-<uniquifier> {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+/* Lato CSS class for a specific weight style
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+} */
+
+
 /* Asterisks wildcard selector to override default styles add to the browser */
 /* Add box-sizing = border-box so when applying height
 and width it includes padding and border */
@@ -32,3 +54,8 @@ footer {
     background-color: orange;
 }
 
+h1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
