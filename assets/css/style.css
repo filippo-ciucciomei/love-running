@@ -1,3 +1,14 @@
+/* Asterisks wildcard selector to override default styles add to the browser */
+/* Add box-sizing = border-box so when applying height
+and width it includes padding and border */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
 header {
     background-color: lightcoral ;
 }
@@ -9,3 +20,4 @@ main {
 footer {
     background-color: orange;
 }
+
