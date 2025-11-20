@@ -46,6 +46,11 @@ header {
     background-color: lightcoral ;
 }
 
+h1 {
+  font-family: "Oswald", sans-serif;
+  
+}
+
 main {
     background-color: lightblue;
     /* Make the main element take all the space
@@ -57,8 +62,3 @@ footer {
     background-color: orange;
 }
 
-h1 {
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
