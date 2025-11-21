@@ -87,17 +87,13 @@ nav {
 /* Main content */
 main {
   /* Make main element take up any surplus space to push footer down */
-  flex: 1 0 auto;
+  flex: 1;
   margin-top: 47px;
- /*  display: flex; I added this to make the image #hero adapt to the screen */
 }
 
 /* Hero section */
 #hero {
-  /*flex: 1;  I changed added this flex:1 in relation to the display:flex of main, to adapt to size screen */
-  height: 
-  width: 100%; 600px; height and width provided in the instructuins don't make the image adaptable, i used flex:1 instead
-   
+  height: 600px;
   background: url("../images/hero-image.webp") no-repeat center center/cover;
   position: relative;
 }
@@ -143,6 +139,13 @@ hr {
 
 #benefits p {
   padding: 0 20px;
+}
+
+#circle-cover-bg {
+  height: 90vw;
+  width: 90vw;
+  background: url("../images/reasons-image.webp") no-repeat center top;
+  margin-bottom: 20px;
 }
 
 /* Footer */
