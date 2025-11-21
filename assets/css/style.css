@@ -159,12 +159,27 @@ hr {
 
 /* Meetup times */
 #times {
-  background: url("../images/dublin-city.webp") no-repeat center center/cover;
+  background: url("../images/dublin-city.webp") no-repeat center/cover;
   display: flex;
   flex-wrap: wrap;
 }
 
 #times > div {
+  color: #afafaf;
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  padding: 15px;
+  /* flex basis sets a min width and stops the div from
+  shrinking in two columns for screens smaller than 400px,
+  and flex grow let the div adjust to wider space if there
+  is more space */
+  flex-basis: 200px;
+  flex-grow: 1;
+  border: 2px solid white;
+}
+
+#times h3 {
+  color: #afafaf;
 }
 
 /* Footer */
