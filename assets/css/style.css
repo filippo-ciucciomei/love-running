@@ -157,6 +157,16 @@ hr {
   justify-content: center;
 }
 
+/* Meetup times */
+#times {
+  background: url("../images/dublin-city.webp") no-repeat center center/cover;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#times > div {
+}
+
 /* Footer */
 #social-networks {
   text-align: center;
@@ -251,8 +261,6 @@ hr {
   #benefits {
     display: flex;
     flex-direction: row;
-    /* align-items: center;
-    margin-top: 100px; */
   }
 
   #benefits > div {
